@@ -1,7 +1,7 @@
 # Robust-Variational-Inference
 Aim to propose a variational inference method to overcome cold posterioe effect and be robust against any corruption. (Work is in progress)
 
-We assume a distribution p(a, β) of augmentations aβ(x) : X 7→ X from a predefined set of label-
+We assume a distribution p(a, β) of augmentations aβ(x) : X → X from a predefined set of label-
 preserving augmentations a ∈ A = {id, blur, noise,rot, . . . , }. Each augmentation can come with optional
 
 intensity parameters β, which often ranges from 1 to 5. For instance, CIFAR-C has 19 corruptions with 5
