@@ -27,6 +27,7 @@ to be simultaneously good for any kind of label-preserving input transformation 
 
 
 Also we aim to solve cold posterio effect (CPE) in Bayesian neural networks:
+
 CPE : The surprising observation that performance in neural networks is not optimal when we use the usual Bayesian posterior. Instead, we get better performance when the posterior taken to the power of 1/T where T < 1. (Nabarro et al.2021)
 Tempering can reduce this misspecification by approximating the correct posterior.(Nabarro et al. 2021):
 
