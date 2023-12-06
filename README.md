@@ -33,4 +33,4 @@ Tempering can reduce this misspecification by approximating the correct posterio
 
 ![image](https://github.com/MortezaNosratpour/Robust-Variational-Inference/assets/45389014/f9e25c5d-b24f-4716-a3f5-9da30622e703)
 
-The proposed posterior tries to get rid of tempering factor (T, which is a hyperparameter of the network and need to be tuned) also solves the CPE problem.
+The proposed posterior tries to get rid of tempering factor (T, which is a hyperparameter of the network and need to be tuned) also solves the CPE problem. Furthermore, we are investigating the relation between "T" and "aveage mutual information among clean and corresponding augmentd images".
